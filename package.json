@@ -1,0 +1,34 @@
+{
+  "name": "com.appalachia.unity3d.unity.cinemachine",
+  "displayName": "Cinemachine",
+  "version": "0.1.0",
+  "unity": "2020.3",
+  "description": "Cinemachine is a suite of ‘smart’ procedural modules which allow you to define the shot and they’ll dynamically follow your direction.",
+  "keywords": [
+    "Scripts",
+    "Tool"
+  ],
+  "category": "Tool",
+  "license": "UCL",
+  "author": {
+    "name": "Unity Technologies"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "url": "https://github.com/AppalachiaInteractive/com.appalachia.unity3d.unity.cinemachine.git",
+    "type": "git"
+  },
+  "scripts": {
+    "preversion": "ai.sh package preversion",
+    "version": "ai.sh package version",
+    "postversion": "ai.sh package postversion",
+    "prepack": "ai.sh package prepack",
+    "postpack": "ai.sh package postpack",
+    "prepublishOnly": "ai.sh package prepublishOnly",
+    "publish": "ai.sh package publish",
+    "postpublish": "ai.sh package postpublish"
+  }
+}
+
+
